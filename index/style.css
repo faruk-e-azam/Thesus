@@ -1,0 +1,89 @@
+* {
+  font-family: Poppins;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-brand img {
+  max-width: 200px;
+  padding: 20px;
+}
+
+.nav-item a {
+  color: #113126 !important;
+}
+.nav-item a:hover {
+  border-bottom: 1px solid #091f17;
+  color: #091f17 !important;
+}
+.carousel-item h5 {
+  font-size: 52px;
+}
+
+.container img {
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.about p {
+  width: 400px;
+  font-size: 32px;
+}
+
+.content p {
+  max-width: 500px;
+}
+.container-2 p {
+  max-width: 500px;
+  font-size: 24px;
+}
+
+#contact {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.links a {
+  text-decoration: none;
+  color: azure;
+}
+.follow i {
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 999px) {
+  .carousel-caption h5 {
+    font-size: 32px;
+  }
+  .carousel-caption button {
+    margin-bottom: 0 !important;
+    font-size: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .carousel-caption h5 {
+    font-size: 18px;
+    margin-bottom: 0 !important;
+  }
+  .carousel-caption {
+    margin-bottom: 0 !important;
+  }
+  .navbar {
+    height: 100px !important;
+  }
+  .navbar-brand img {
+    width: 150px;
+  }
+  .carousel-indicators {
+    margin: 0 !important;
+  }
+  .carousel-control-prev-icon {
+    margin-top: 50px;
+  }
+  .carousel-control-next-icon {
+    margin-top: 50px;
+  }
+}
